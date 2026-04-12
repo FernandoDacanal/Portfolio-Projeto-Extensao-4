@@ -305,6 +305,24 @@ border-bottom: 1px solid rgba(0,180,216,0.15);
 }
 .masonry-item .ph-icon { font-size: 2rem; margin-bottom: 0.5rem; opacity: 0.5; }
 .masonry-item p { font-size: 0.78rem; color: rgba(255,255,255,0.4); }
+.img-show {
+  break-inside: avoid; margin-bottom: 1.2rem;
+  border-radius: 10px; overflow: hidden;
+  background: rgba(0,180,216,0.08);
+  border: 1px dashed rgba(0,180,216,0.25);
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  transition: all 0.3s; cursor: pointer;
+  overflow: hidden;
+  line-height: 0;
+  object-fit: cover;
+  max-width: 100%;
+}
+.img-show:hover {
+  background: rgba(0,180,216,0.15);
+  border-color: var(--ocean-teal);
+  transform: scale(1.01);
+}
 
 /* ── VÍDEO ── */
 #video { background: #061829; }
